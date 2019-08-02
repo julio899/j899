@@ -1,0 +1,27 @@
+{
+  "name": "j899",
+  "version": "1.0.0",
+  "description": "utility various",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julio899/j899.git"
+  },
+  "keywords": [
+    "j899",
+    "utility",
+    "various"
+  ],
+  "author": "Julio Vinachi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/julio899/j899/issues"
+  },
+  "homepage": "https://github.com/julio899/j899#readme"
+}
