@@ -1,27 +1,95 @@
 {
-  "name": "j899",
-  "version": "1.0.0",
+  "_args": [
+    [
+      {
+        "raw": "j899",
+        "scope": null,
+        "escapedName": "j899",
+        "name": "j899",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/home/julio899/git/testJest"
+    ]
+  ],
+  "_from": "j899@latest",
+  "_hasShrinkwrap": false,
+  "_id": "j899@1.0.0",
+  "_inCache": true,
+  "_location": "/j899",
+  "_nodeVersion": "10.15.3",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/j899_1.0.0_1564761619246_0.41726856692664005"
+  },
+  "_npmUser": {
+    "name": "julio899",
+    "email": "julio899@gmail.com"
+  },
+  "_npmVersion": "6.4.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "j899",
+    "scope": null,
+    "escapedName": "j899",
+    "name": "j899",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/j899/-/j899-1.0.0.tgz",
+  "_shasum": "ed7f51ef0cd1656363d7075c21801d2f19e454a2",
+  "_shrinkwrap": null,
+  "_spec": "j899",
+  "_where": "/home/julio899/git/testJest",
+  "author": {
+    "name": "Julio Vinachi"
+  },
+  "bugs": {
+    "url": "https://github.com/julio899/j899/issues"
+  },
+  "dependencies": {},
   "description": "utility various",
-  "main": "index.js",
+  "devDependencies": {},
   "directories": {
     "lib": "lib"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "dist": {
+    "integrity": "sha512-Lgnm86Q6X2hU+nYgM0BfzEhHj8uXm5y9TTZGHpG5lUvvGgAH2NNATKcRZr7lwU88tT6z3xGArewkCEKSqlRBww==",
+    "shasum": "ed7f51ef0cd1656363d7075c21801d2f19e454a2",
+    "tarball": "https://registry.npmjs.org/j899/-/j899-1.0.0.tgz",
+    "fileCount": 4,
+    "unpackedSize": 731,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdRF4TCRA9TVsSAnZWagAAZtMP/2f7bGE4elrBBvLvFfY2\nTH7Yk8zBW8CNQZKA8PbGzvmi1Qsi+TCrATbCZtDGwb4U+ToGwY0OSOBgVUuX\nCNrXjW1idZHwMfseZbNiKH0aLyJCBdVJwDNCJiB2jgPuEF6h//6cKnnOQkYj\nyP9srwvN9krJMmvG3HPZDRYZ4puZGeSIDq0eOJz5WCvbQ+E7WztFAYNaEhv9\nEM28qKz3/sPGBXoW+Ncsoqf4lUTsyrpUh+OQ3NvvdxUgkQE9AHvC8Bd0jcrH\n5vE/astGxseQ8rB0w0MDdCPaatGLxj7teA+YUgF9p3wfmwOXVKkmSLvTb0df\nLBoR1v7y4PoJarwHpzjCYgyBjQrV9g3rym0LersedtsP63jngeEXRK5zB8yf\ny6pGvkYh56Xdj0uMPycIzZcRG3+fSIXhZr9WTQwAaNymz/FMRmI3ptrWM3tA\nb0ILZsPyw9R3Zkdr4wL0Spl40tnfCFZgvUcfcdT6isH9G9AQPXV/r2DVoyp9\nfJ7CPx8bA9A3NeGiWwEN3uR95BdSF7SKdV3Md/84rblAhb+rqYqBMK1Yx9pZ\nG7IyX153qEs87o72w2JCsyae90Rikt/xYJaU82V5CY2G1pQFv4/NOPwUE8U0\nKusULMZdPtw0JK1Ebr4qInb7j4BUwWjv4cTJFtA1vwJjtAHd6Judvgu6vqa7\n191n\r\n=8zvO\r\n-----END PGP SIGNATURE-----\r\n"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/julio899/j899.git"
-  },
+  "gitHead": "d375e73a1147ecfc641f75e3a7b0c1d940d12158",
+  "homepage": "https://github.com/julio899/j899#readme",
   "keywords": [
     "j899",
     "utility",
     "various"
   ],
-  "author": "Julio Vinachi",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/julio899/j899/issues"
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "julio899",
+      "email": "julio899@gmail.com"
+    }
+  ],
+  "name": "j899",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julio899/j899.git"
   },
-  "homepage": "https://github.com/julio899/j899#readme"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.1"
 }
