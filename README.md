@@ -5,9 +5,11 @@ Utility variuos.
 
 * step 1 Install use node : `npm i j899`
 In Vanilla ES4 ES5 or common projects:
-> var u = require("j899");
+>var u = require("j899");
+
 In TypeScript you can use:
-> import * as u from "j899";
+>import * as u from "j899";
+
 Examples of Use:
 
     // TEST log
