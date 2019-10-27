@@ -35,9 +35,9 @@ u.log( '1000234.56 - ' + u.inNumeration('US', 1000234.56) );
 u.log( '0.123 - ' + u.inNumeration('US', 0.123) );
 
 u.log('------[ Test Numeration LA ]-------');
-u.log('1234  - ' + u.inNumeration('LA', 1234));			// 1234  - 1.234
-u.log('1.234 - ' + u.inNumeration('LA', 1.234));		// 1.234 - 1,234
-u.log('1234.56 - ' + u.inNumeration('LA', 1234.56)); 		// 1234.56 - 1.234,56
-u.log('1000234.56 - ' + u.inNumeration('LA', 1000234.56)); 	// 1000234.56 - 1.000.234,56
+u.log('1234  - ' + u.inNumeration('LA', 1234));			// 1234  	-> 1.234
+u.log('1.234 - ' + u.inNumeration('LA', 1.234));		// 1.234 	-> 1,234
+u.log('1234.56 - ' + u.inNumeration('LA', 1234.56)); 		// 1234.56 	-> 1.234,56
+u.log('1000234.56 - ' + u.inNumeration('LA', 1000234.56)); 	// 1000234.56 	-> 1.000.234,56
 u.log('0.123 - ' + u.inNumeration('LA', 0.123)); 		// 0.123 - 0,123
 ```
