@@ -46,5 +46,7 @@ u.tag('SomeText'); // color default
 u.tag('test','info');
 u.tag('uno','info','custon'); // with text in side blue custom text
 u.tag('dos','success');
-
 ```
+### Examples tags in log
+
+![Tags](https://raw.githubusercontent.com/julio899/perfil/master/img/tags.png)
