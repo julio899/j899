@@ -6,7 +6,8 @@ const inNumeration = require("./lib/inNumeration");
 
 module.exports = {
   log,
-  inNumeration
+  inNumeration,
+  tag
 };
 
 log(
