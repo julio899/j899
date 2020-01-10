@@ -40,4 +40,11 @@ u.log('1.234 - ' + u.inNumeration('LA', 1.234));		// 1.234 	-> 1,234
 u.log('1234.56 - ' + u.inNumeration('LA', 1234.56)); 		// 1234.56 	-> 1.234,56
 u.log('1000234.56 - ' + u.inNumeration('LA', 1000234.56)); 	// 1000234.56 	-> 1.000.234,56
 u.log('0.123 - ' + u.inNumeration('LA', 0.123)); 		// 0.123 	-> 0,123
+
+// # Tags
+
+u.tag('test','info');
+u.tag('uno','info','custon'); // with text in side blue custom text
+u.tag('dos','success');
+
 ```
