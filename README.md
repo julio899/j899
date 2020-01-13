@@ -17,7 +17,7 @@ import * as u from "j899";
 u.log(
 	[
 		{
-			text: "epa import typescript",
+			text: "some import typescript",
 			otro: 1,
 			value: 12324567
 		},
