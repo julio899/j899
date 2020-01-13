@@ -50,3 +50,5 @@ u.tag('dos','success');
 ### Examples tags in log
 
 ![Tags](https://raw.githubusercontent.com/julio899/perfil/master/img/tags.png)
+
+[npm package](https://www.npmjs.com/package/j899)
