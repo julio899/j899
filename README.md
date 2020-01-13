@@ -51,4 +51,6 @@ u.tag('dos','success');
 
 ![Tags](https://raw.githubusercontent.com/julio899/perfil/master/img/tags.png)
 
+![Tags](https://static.npmjs.com/c75bd6b3c8bc54a3452b20674c27575b.png)
+
 [npm package](https://www.npmjs.com/package/j899)
