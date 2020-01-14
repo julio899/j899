@@ -41,11 +41,16 @@ u.log('1234.56 - ' + u.inNumeration('LA', 1234.56)); 		// 1234.56 	-> 1.234,56
 u.log('1000234.56 - ' + u.inNumeration('LA', 1000234.56)); 	// 1000234.56 	-> 1.000.234,56
 u.log('0.123 - ' + u.inNumeration('LA', 0.123)); 		// 0.123 	-> 0,123
 
+
 // # Tags
 u.tag('SomeText'); // color default
-u.tag('test','info');
-u.tag('uno','info','custom'); // with text in side blue custom text
-u.tag('dos','success');
+u.tag('SomeText','info');
+u.tag('SomeText','info','custom'); // with text in side blue custom text
+u.tag('SomeText','success');
+u.tag('SomeText','warning');
+u.tag('SomeText','danger');
+u.tag('SomeText','gold');
+u.tag('SomeText','gold','Good');
 ```
 ### Examples tags in log
 
