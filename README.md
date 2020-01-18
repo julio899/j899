@@ -43,6 +43,10 @@ u.log('0.123 - ' + u.inNumeration('LA', 0.123)); 		// 0.123 	-> 0,123
 
 
 // # Tags
+
+u.tag('Build','success','V1.0');
+u.tag('license','info','MIT');
+u.tag('Test','success','passing');
 u.tag('SomeText'); // color default
 u.tag('SomeText','info');
 u.tag('SomeText','info','custom'); // with text in side blue custom text
