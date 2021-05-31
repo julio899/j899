@@ -9,25 +9,11 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [12.x, 14.x, 16.x]
+        node-version: [12.x]
         os: [ubuntu-latest]
         
     steps:
     - uses: actions/pull_request@master
     - name: Test
-      uses: julio899/j899@master
-
-  test:
-    name: Run tests
-    runs-on: ubuntu-latest
-    
-    strategy:
-      matrix:
-        node-version: [12.x, 14.x, 16.x]
-        os: [ubuntu-latest]
-        
-        
-    steps:
-    - uses: actions/pull_request@master
-    - name: Test
-      uses: julio899/j899@master
+      uses: actions/checkout@master
+      ## https://github.com/julio899/j899/actions/workflows/pull_request.yml
