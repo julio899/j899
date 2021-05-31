@@ -13,7 +13,7 @@ jobs:
         os: [ubuntu-latest]
         
     steps:
-    - uses: actions/pull_request@master
+    - uses: actions/checkout@master
     - name: Test
-      uses: actions/checkout@master
+      # uses: actions/checkout@master
       ## https://github.com/julio899/j899/actions/workflows/pull_request.yml
