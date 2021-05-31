@@ -1,4 +1,6 @@
 # Project j899
+[![Npm Package](https://github.com/julio899/j899/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/julio899/j899/actions/workflows/npm-publish.yml)
+
 ##### Try philosophy Less is More 
 shorten functionality
 Utility variuos.
