@@ -51,6 +51,9 @@
   },
   "description": "utility various",
   "devDependencies": {
+    "@commitlint/cli": "^12.1.4",
+    "@commitlint/config-conventional": "^12.1.4",
+    "husky": "^6.0.0",
     "jest": "^27.0.3"
   },
   "directories": {
@@ -81,7 +84,14 @@
     "url": "git+https://github.com/julio899/j899.git"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "prepare": "husky install"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm test",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
   },
   "version": "1.1.8"
 }
