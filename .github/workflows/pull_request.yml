@@ -13,7 +13,7 @@ jobs:
         os: [ubuntu-latest]
         
     steps:
-    - uses: actions/checkout@master
+    - uses: actions/pull_request@master
     - name: Test
       uses: julio899/j899@master
 
@@ -28,6 +28,6 @@ jobs:
         
         
     steps:
-    - uses: actions/checkout@master
+    - uses: actions/pull_request@master
     - name: Test
       uses: julio899/j899@master
