@@ -11,6 +11,11 @@ jobs:
       matrix:
         node-version: [12.x, 14.x, 16.x]
         os: [ubuntu-latest]
+        
+    steps:
+    - uses: actions/checkout@master
+    - name: Test
+      uses: julio899/j899@master
 
   test:
     name: Run tests
@@ -20,6 +25,7 @@ jobs:
       matrix:
         node-version: [12.x, 14.x, 16.x]
         os: [ubuntu-latest]
+        
         
     steps:
     - uses: actions/checkout@master
