@@ -10,6 +10,12 @@ In Vanilla ES5 ES6 or common projects:
 In TypeScript you can use:
 >import * as u from "j899";
 
+
+Test with JestJs
+>npm run test
+
+![image](https://user-images.githubusercontent.com/2575745/120127801-5c1f3d00-c18e-11eb-9da5-84611b7e5ebd.png)
+
 Examples of Use:
 ```javascript
 import * as u from "j899";
