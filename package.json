@@ -49,9 +49,10 @@
   "bugs": {
     "url": "https://github.com/julio899/j899/issues"
   },
-  "dependencies": {},
   "description": "utility various",
-  "devDependencies": {},
+  "devDependencies": {
+    "jest": "^27.0.3"
+  },
   "directories": {
     "lib": "lib"
   },
@@ -75,13 +76,12 @@
     "julio899 <julio899@gmail.com>"
   ],
   "name": "j899",
-  "optionalDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/julio899/j899.git"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "version": "1.1.7"
 }
