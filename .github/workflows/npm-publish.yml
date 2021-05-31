@@ -17,3 +17,5 @@ jobs:
           node-version: 12
       - run: npm ci --ignore-scripts
       - run: npm test
+      - name: Test
+
